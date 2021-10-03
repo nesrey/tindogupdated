@@ -9,18 +9,20 @@ body {
 
 .display-text {
   font-family: Montserrat;
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: bold;
+
 }
 
 .container-fluid {
-  padding: 3% 10% !important;
+  padding: 3% 20% 7%!important;
 }
 
 /* Navigation bar */
 
 .navbar {
   padding: 4.5rem 0 4.5rem !important;
+
 }
 
 .navbar-brand {
@@ -34,7 +36,8 @@ body {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+
 }
 
 /* Download Buttons */
@@ -46,14 +49,19 @@ body {
 /* Title Image */
 
 .title-image {
-  width: 60%;
+  width: 350px;
+  padding: 0 0 ;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 /* Features section */
 
 #features {
-  padding: 7% 15%;
+
+  padding: 7% 15% ;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
@@ -63,6 +71,7 @@ p {
   padding: 0 15%;
   color: #8f8f8f;
 }
+
 h2{
   font-family: montserrat;
   font-weight: bold !important;
@@ -122,4 +131,38 @@ padding-bottom: 3%;
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1000px){
+
+#title {
+text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+/* Call to action */
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+.fab {
+margin: 20px;
 }
